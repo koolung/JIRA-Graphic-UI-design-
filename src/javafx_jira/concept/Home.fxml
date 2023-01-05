@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="479.0" prefWidth="804.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="javafx_jira.concept.HomeController">
+   <children>
+      <AnchorPane prefHeight="479.0" prefWidth="249.0" style="-fx-background-color: #0747A6;">
+         <children>
+            <Button alignment="TOP_LEFT" layoutX="57.0" layoutY="84.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0" style="-fx-background-color: trn;" text="Dashboard" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="TH_LARGE" size="15" />
+               </graphic>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="57.0" layoutY="119.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0" style="-fx-background-color: trn;" text="Projects" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="ARCHIVE" size="15" />
+               </graphic>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="63.0" layoutY="152.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="186.0" style="-fx-background-color: trn;" text="Issues" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="LIGHTBULB_ALT" size="16" text="" />
+               </graphic>
+            </Button>
+            <Button alignment="TOP_LEFT" layoutX="57.0" layoutY="183.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0" style="-fx-background-color: trn;" text="Settings" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="COGS" size="15" />
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="479.0" prefWidth="54.0">
+         <children>
+            <FontAwesomeIconView fill="WHITE" glyphName="SEARCH" layoutX="21.0" layoutY="70.0" size="16" textAlignment="CENTER" wrappingWidth="12.0" />
+            <FontAwesomeIconView fill="WHITE" glyphName="PLUS" layoutX="21.0" layoutY="107.0" size="16" textAlignment="CENTER" wrappingWidth="12.0" />
+            <FontAwesomeIconView fill="WHITE" glyphName="BARS" layoutX="21.0" layoutY="412.0" size="16" textAlignment="CENTER" wrappingWidth="12.0" />
+            <FontAwesomeIconView fill="WHITE" glyphName="QUESTION" layoutX="21.0" layoutY="448.0" size="16" textAlignment="CENTER" wrappingWidth="12.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
